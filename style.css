@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+.list-inline {
+    list-style-type: none;
+}
+.list-inline-item {
+    display: inline-block;
+    color: #9f9696;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    font-size: 20px;
+    border-radius: 5px;
+    line-height: 42px;
+    transition: all 0.5s;
+    text-align: center;
+    background-color: rgba(255,255,255,0.05);
+}
+.list-inline a:hover {
+    color: #5ac24e !important;
+    box-shadow: -6px 6px 40px rgba(0,0,0,0.3) !important;
+}
